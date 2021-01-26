@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Дизайн студия Нёрдс</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html">
+				<img src="img/nerds-logo.png" alt="Логотип дизайн-студии Нёрдс" height="66" width="160">
+			</a>
+			<ul>
+				<li>
+					<a href="#">Студия</a>
+				</li>
+				<li>
+					<a href="#">Клиенты</a>
+				</li>
+				<li>
+					<a href="catalog.html">Магазин</a>
+				</li>
+				<li>
+					<a href="#">Контакты</a>
+				</li>
+			</ul>
+			<a href="#">Корзина</a>
+		</nav>
+	</header>
+	<main>
+
+		<h1>Магизан готовых шаблонов</h1>
+		<section>
+			<form action="https://echo.htmlacademy.ru/" method="POST">
+				<fieldset>
+					<legend>Стоимость:</legend>
+					<input  type="range" min="0" max="15000" >
+					<p>от <span>0</span> до <span>15 000</span></p>
+				</fieldset>
+				<fieldset>
+					<legend>Сетка:</legend>
+					<ul>
+						<li>
+							<input type="radio" id="input-adaptive" checked name="group-services">
+							<label for="input-adaptive"> Адаптивная </label>
+						</li>
+						<li>
+							<input type="radio" id="input-fixed" name="group-services">
+							<label for="input-fixed"> Фиксированная </label>
+						</li>
+						<li>
+							<input type="radio" id="input-rubber" name="group-services">
+							<label for="input-rubber"> Резиновая </label>
+						</li>
+					</ul>
+
+				</fieldset>
+
+				<fieldset>
+					<legend>Особенности:</legend>
+
+					<ul>
+						<li>
+							<input id="filter-slider" type="checkbox" checked>
+							<label for="filter-slider">Слайдер</label>
+						</li>
+						<li>
+							<input id="filter-advantages" type="checkbox">
+							<label for="filter-advantages">Блок преимуществ</label>
+						</li>
+						<li>
+							<input id="filter-news" type="checkbox" checked>
+							<label for="filter-news">Новости</label>
+						</li>
+						<li>
+							<input id="filter-galery" type="checkbox">
+							<label for="filter-galery">Галерея</label>
+						</li>
+						<li>
+							<input id="filter-basket" type="checkbox">
+							<label for="filter-basket">Корзина</label>
+						</li>
+					</ul>
+				</fieldset>
+				<button type="submit">Показать</button>
+			</form>
+		</section>
+
+		<section>
+			<h2>Сортировать:</h2>
+			<ul>
+				<li>
+					<p>По цене</p>
+				</li>
+				<li>
+					<p>По типу</p>
+				</li>
+				<li>
+					<p>По названию</p>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="img/catalog/sedona-img.png" alt="Шаблон сайта Sedona" height="578" width="358">
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/catalog/pink-img.png" alt="Шаблон сайта Pink" height="578" width="358">
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/catalog/borodiski-img.png" alt="Шаблон сайта Borodinski" height="578" width="358">
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/catalog/mishka-img.png" alt="Шаблон сайта Mishka" height="578" width="358">
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/catalog/a+-img.png" alt="Шаблон сайта A+" height="578" width="358">
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/catalog/kvast-img.png" alt="Шаблон сайта Кваст" height="578" width="358">
+					</a>
+				</li>
+
+			</ul>
+			<ul>
+				<li>
+					<a>1</a>
+				</li>
+				<li>
+					<a href="#">2</a>
+				</li>
+				<li>
+					<a href="#">3</a>
+				</li>
+				<li>
+					<a href="#">Следующая</a>
+				</li>
+			</ul>
+		</section>
+		<div>
+			<address>
+				<img src="https://via.placeholder.com/150x100" alt="Карта">
+			</address>
+		</div>
+	</main>
+	<footer>
+		<section>
+			<ul>
+				<li>
+					<a href="#">Вконтакте</a>
+				</li>
+				<li>
+					<a href="#">Фейсбук</a>
+				</li>
+				<li>
+					<a href="#">Инстаграм</a>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Давайте дружить, это выгодно!</h2>
+			<p>Скидка 10% для друзей из социальных сетей.</p>
+		</section>
+	</footer>
+</body>
+</html>
