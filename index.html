@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Дизайн студия Нёрдс</title>
@@ -13,136 +13,164 @@
 	<link rel="apple-touch-icon" href="img/favicon/180.png">
 	<link rel="manifest" href="manifest.webmanifest">
 </head>
-<body>
-	<header>
-		<nav>
-			<a href="index.html">
+
+<body class="page-body">
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a href="index.html" class="main-header-logo">
 				<img src="img/nerds-logo.png" alt="Логотип дизайн-студии Нёрдс" height="66" width="160">
 			</a>
-			<ul>
-				<li>
-					<a href="#">Студия</a>
+			<ul class="navigation-list">
+				<li class="navigation-item">
+					<a href="#" class="navigation-link">Студия</a>
 				</li>
-				<li>
-					<a href="#">Клиенты</a>
+				<li class="navigation-item">
+					<a href="#" class="navigation-link">Клиенты</a>
 				</li>
-				<li>
-					<a href="catalog.html">Магазин</a>
+				<li class="navigation-item">
+					<a href="catalog.html" class="navigation-link">Магазин</a>
 				</li>
-				<li>
-					<a href="#">Контакты</a>
+				<li class="navigation-item">
+					<a href="#" class="navigation-link">Контакты</a>
 				</li>
 			</ul>
-			<a href="#">Корзина</a>
+			<a href="#" class="cart-link">Корзина</a>
 		</nav>
 	</header>
-	<main>
-		<h1>Дизайн студия Нёрдс</h1>
-		<section>
-			<h2>Долго, дорого, срупулёзно.</h2>
-			<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-			<a href="#">Узнать больше</a>
-			<div>
-				<img src="img/nerds-index-slide1-1.png" alt="">
+ 
+	<main class="main-wrapper">
+		
+		<h1 class="main-title visually-hidden">Дизайн студия Нёрдс</h1>
+
+		<section class="intro">
+			<div class="intro-columns">
+				<p class="intro-large-text">Долго, дорого, срупулёзно.</p>
+				<p class="intro-small-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+				<a class="intro-excerpt" href="#">Узнать больше</a>
+			</div>
+			<div class="intro-wrap-text">
+				<img class="itro-img" src="img/nerds-index-slide1-1.png" alt="">
 			</div>
 		</section>
-		<section>
-			<ul>
-				<li>
+
+		<section class="products">
+			<ul class="products-list">
+				<li class="products-item">
 					<img src="img/illustration-1-1.png" alt="Веб-сайты" height="146" width="300">
-					<h2>Веб-сайты</h2>
-					<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-					<button>Заказать</button>
+					<h2 class="product-title">Веб-сайты</h2>
+					<p class="product-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+					<button class="button products-button-red">Заказать</button>
 				</li>
-				<li>
+
+				<li class="products-item">
 					<img src="img/illustration-2-1.png" alt="Приложения" height="146" width="300">
-					<h2>Приложения</h2>
-					<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-					<button>Заказать</button>
+					<h2 class="product-title">Приложения</h2>
+					<p class="product-text">Покорите топ-10 приложений в AppStore и Google Play</p>
+					<button class="button products-button-green">Заказать</button>
 				</li>
-				<li>
+
+				<li class="products-item">
 					<img src="img/illustration-3-1.png" alt="Призентации" height="146" width="300">
-					<h2>Призентации</h2>
-					<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-					<button>Заказать</button>
+					<h2 class="product-title">Призентации</h2>
+					<p class="product-text">Вы даже не подозреваете, насколько вы изумительны!</p>
+					<button class="button products-button-yellow">Заказать</button>
 				</li>
 			</ul>
 		</section>
-		<section>
-			<h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
-			<p>Исповедуем принципы минимализма и чистоты. Ставим математичекий расчет превыше креатива. Работаем не погладая рук, как роботы</p>
-			<h3>Выполняем заказы на разработку:</h3>
-			<ul>
-				<li>Веб-сайтов любой сложности</li>
-				<li>Мобильных приложений для iOS и Android</li>
-				<li>Слайдшоу и видео для корпоративных презентаций</li>
-			</ul>
-		</section>
-		<section>
-			<img src="img/nerds-illustration-1.png" alt="Nёrds">
-			<h3>С 2004 года любим точность во всем:</h3>
-			<ul>
-				<li>
-					<p>146<span>%</span></p>
-					<p>Уровень самоотдачи</p>
-				</li>
-				<li>
-					<p>100<span>%</span></p>
-				</li>
-				<li>
-					<p>50<span>%</span></p>
-					<p>Минимальная предоплата</p>
-				</li>
-			</ul>
-		</section>
-		<section>
-			<ul>
-				<li>
+
+		<div class="index-columns">
+			<section class="about">
+				<h2 class="about-title">Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
+				<p class="about-text">Исповедуем принципы минимализма и чистоты. Ставим математичекий расчет превыше креатива. Работаем не погладая рук, как роботы</p>
+				<h3 class="about-subtitle">Выполняем заказы на разработку:</h3>
+				<ul class="about-list">
+					<li class="about-item">Веб-сайтов любой сложности</li>
+					<li class="about-item">Мобильных приложений для iOS и Android</li>
+					<li class="about-item">Слайдшоу и видео для корпоративных презентаций</li>
+				</ul>
+			</section>
+
+			<section class="advantages">
+				<img src="img/nerds-illustration-1.png" alt="Nёrds">
+				<h3 class="advantage-title">С 2004 года любим точность во всем:</h3>
+				<ul class="advantage-list">
+					<li class="advantage-item">
+						<p class="advantage-item-decorate">146<span>%</span></p>
+						<p class="advantage-item-desc">Уровень самоотдачи</p>
+					</li>
+
+					<li class="advantage-item">
+						<p class="advantage-item-decorate">100<span>%</span></p>
+						<p class="advantage-item-desc">Соблюдение сроков</p>
+					</li>
+
+					<li class="advantage-item">
+						<p class="advantage-item-decorate">50<span>%</span></p>
+						<p class="advantage-item-desc">Минимальная предоплата</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+
+		<section class="companies">
+			<ul class="companies-list">
+				<li class="companies-item">
 					<a href="https://htmlacademy.ru/intensive/htmlcss">
 						<img src="img/logos/logo-1.png" alt="Логотип html academy" height="68" width="199">
 					</a>
 				</li>
-				<li>
+
+				<li class="companies-item">
 					<img src="img/logos/logo-2.png" alt="Логотип borodinski" height="90" width="209">
 				</li>
-				<li>
+
+				<li class="companies-item">
 					<img src="img/logos/logo-3.png" alt="Логотип pink" height="52" width="185">
 				</li>
-				<li>
+
+				<li class="companies-item">
 					<img src="img/logos/logo-4.png" alt="Логотип mishka" height="84" width="173">
 				</li>
 			</ul>
 		</section>
-		<div>
-				<img src="img/map.png" alt="Карта" height="416" width="1440">
-				<img src="img/map-marker.png" alt="Маркер карты" width="231" height="190">
-		</div>
-		<section>
-			<h2>nёrds design srudio</h2>
-			<p>191186, Санкт-Петербург, <br>
-				 ул. Б.Конюшенная, д. 19/8</p>
-			<p>тел. +7 (812) 275-75-75</p>
-			<button>Напишите нам</button>
-		</section>
 	</main>
-	<footer>
-		<section>
-			<ul>
-				<li>
-					<a href="#">Вконтакте</a>
-				</li>
-				<li>
-					<a href="#">Фейсбук</a>
-				</li>
-				<li>
-					<a href="#">Инстаграм</a>
-				</li>
-			</ul>
+
+	<footer class="footer">
+		<section class="contacts">
+			<h2 class="contacts-title">nёrds design srudio</h2>
+			<p class="contacts-text-address">191186, Санкт-Петербург, <br>
+				 ул. Б.Конюшенная, д. 19/8</p>
+			<p class="contacts-tel">тел. +7 (812) 275-75-75</p>
+			<button class="button contacts-button" type="submit">Напишите нам</button>
+			<div class="wrapper-contacts-img">
+				<img src="img/map.png" alt="Карта" height="416">
+				<img src="img/map-marker.png" alt="Маркер карты" width="231" height="190">
+			</div>
 		</section>
-		<section>
-			<h2>Давайте дружить, это выгодно!</h2>
-			<p>Скидка 10% для друзей из социальных сетей.</p>
+
+		<div class="container">
+			<section class="socials-links">
+				<ul class="socials-links-list">
+					<li class="socials-item">
+						<a class="socials-item-link" href="#">Вконтакте</a>
+					</li>
+
+					<li class="socials-item">
+						<a class="socials-item-link" href="#">Фейсбук</a>
+					</li>
+
+					<li class="socials-item">
+						<a class="socials-item-link" href="#">Инстаграм</a>
+					</li>
+				</ul>
+			</section>
+		
+		<section class="benefit">
+			<p class="benefit-large-text">Давайте дружить, это выгодно!</p>
+			<p class="benefit-small-text">Скидка 10% для друзей из социальных сетей.</p>
 		</section>
+
+		</div>
 	</footer>
 </body>
 </html>
