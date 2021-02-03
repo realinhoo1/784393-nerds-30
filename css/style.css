@@ -103,6 +103,7 @@ img {
 	background-color: #E74246;
 }
 .intro-excerpt:active{
+	color: rgba(255, 255, 255, .3);
 	background-color: #D7373B;
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
@@ -140,9 +141,12 @@ img {
 	background-color: #E74246;
 }
 .products-button-red:active{
+	color: rgba(255,255,255, .3);
 	background-color: #D7373B;
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
+
+
 
 .products-button-green {
 	background-color: var(--background-green);
@@ -152,6 +156,7 @@ img {
 }
 .products-button-green:active{
 	background-color: #00AA62;
+	color: rgba(255,255,255, .3);
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 
@@ -164,6 +169,7 @@ img {
 }
 .products-button-yellow:active{
 	background-color: #E5A722;
+	color: rgba(255,255,255, .3);
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 
@@ -252,6 +258,7 @@ img {
 	background-color: #E74246;
 }
 .contacts-button:active{
+	color: rgba(255, 255, 255, .3);
 	background-color: #D7373B;
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
