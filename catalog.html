@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300,500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Дизайн студия Нёрдс</title>
@@ -17,172 +17,173 @@
 
 <body class="page-body">
 	<header class="main-header">
-		<nav class="main-navigation">
-			<a href="index.html" class="main-header-logo">
-				<img src="img/nerds-logo.png" alt="Логотип дизайн-студии Нёрдс" height="66" width="160">
-			</a>
-			<ul class="navigation-list">
-				<li class="navigation-item">
-					<a href="#" class="navigation-link">Студия</a>
-				</li>
-				<li class="navigation-item">
-					<a href="#" class="navigation-link">Клиенты</a>
-				</li>
-				<li class="navigation-item">
-					<a href="catalog.html" class="navigation-link catalog-active">Магазин</a>
-				</li>
-				<li class="navigation-item">
-					<a href="#" class="navigation-link">Контакты</a>
-				</li>
-			</ul>
-			<a href="#" class="cart-link">Корзина</a>
-		</nav>
+		<div class="header-wrapper container">
+			<nav class="main-navigation">
+				<a href="index.html" class="main-header-logo">
+					<img src="img/nerds-logo.png" alt="Логотип дизайн-студии Нёрдс" height="66" width="160">
+				</a>
+				<ul class="navigation-list">
+					<li class="navigation-item">
+						<a href="#" class="navigation-link">Студия</a>
+					</li>
+					<li class="navigation-item">
+						<a href="#" class="navigation-link">Клиенты</a>
+					</li>
+					<li class="navigation-item">
+						<a href="catalog.html" class="navigation-link catalog-active">Магазин</a>
+					</li>
+					<li class="navigation-item">
+						<a href="#" class="navigation-link">Контакты</a>
+					</li>
+				</ul>
+				<a href="#" class="cart-link">Корзина</a>
+			</nav>
+		</div>
 	</header>
 	
 	<main class="main-wrapper">
 
-		<h1 class="main-title">Магазин готовых шаблонов</h1>
+		<h1 class="catalog-main-title">Магазин готовых шаблонов</h1>
 
-		<section class="filters">
-			<form action="https://echo.htmlacademy.ru/" method="POST">
+		<div class="container">
+			<section class="filters">
+				<form action="https://echo.htmlacademy.ru/" method="POST">
 
-				<fieldset class="filter-value">
-					<legend class="filter-value-title">Стоимость:</legend>
-					<input class="filter-value-range" type="range" min="0" max="15000">
-					<p class="filter-value-price">от <span>0</span> до <span>15 000</span></p>
-				</fieldset>
+					<fieldset class="filter-value">
+						<legend class="filter-value-title">Стоимость:</legend>
+						<input class="filter-value-range" type="range" min="0" max="15000">
+						<p class="filter-value-price">от <span>0</span> до <span>15 000</span></p>
+					</fieldset>
 
-				<fieldset class="filter-radio">
-					<legend class="filter-radio-title">Сетка:</legend>
-					<ul class="filter-radio-list">
-						<li class="filter-radio-item">
-							<input class="filter-radio-input" type="radio" id="input-adaptive" checked name="group-services">
-							<label class="filter-radio-label" for="input-adaptive"> Адаптивная </label>
-						</li>
+					<fieldset class="filter-radio">
+						<legend class="filter-radio-title">Сетка:</legend>
+						<ul class="filter-radio-list">
+							<li class="filter-radio-item">
+								<input class="filter-radio-input" type="radio" id="input-adaptive" checked name="group-services">
+								<label class="filter-radio-label" for="input-adaptive"> Адаптивная </label>
+							</li>
 
-						<li class="filter-radio-item">
-							<input class="filter-radio-input" type="radio" id="input-fixed" name="group-services">
-							<label class="filter-radio-label" for="input-fixed"> Фиксированная </label>
-						</li>
+							<li class="filter-radio-item">
+								<input class="filter-radio-input" type="radio" id="input-fixed" name="group-services">
+								<label class="filter-radio-label" for="input-fixed"> Фиксированная </label>
+							</li>
 
-						<li class="filter-radio-item">
-							<input class="filter-radio-input" type="radio" id="input-rubber" name="group-services">
-							<label class="filter-radio-label" for="input-rubber"> Резиновая </label>
-						</li>
-					</ul>
+							<li class="filter-radio-item">
+								<input class="filter-radio-input" type="radio" id="input-rubber" name="group-services">
+								<label class="filter-radio-label" for="input-rubber"> Резиновая </label>
+							</li>
+						</ul>
+					</fieldset>
 
-				</fieldset>
+					<fieldset class="filter-features">
+						<legend class="filter-features-title">Особенности:</legend>
+						<ul class="filter-features-list">
+							<li class="filter-features-item">
+								<input class="filter-features-checkbox" id="filter-slider" type="checkbox" checked>
+								<label class="filter-features-label" for="filter-slider">Слайдер</label>
+							</li>
 
-				<fieldset class="filter-features">
-					<legend class="filter-features-title">Особенности:</legend>
+							<li class="filter-features-item">
+								<input class="filter-features-checkbox" id="filter-advantages" type="checkbox">
+								<label class="filter-features-label" for="filter-advantages">Блок преимуществ</label>
+							</li>
 
-					<ul class="filter-features-list">
-						<li class="filter-features-item">
-							<input class="filter-features-checkbox" id="filter-slider" type="checkbox" checked>
-							<label class="filter-features-label" for="filter-slider">Слайдер</label>
-						</li>
+							<li class="filter-features-item">
+								<input class="filter-features-checkbox" id="filter-news" type="checkbox" checked>
+								<label class="filter-features-label" for="filter-news">Новости</label>
+							</li>
 
-						<li class="filter-features-item">
-							<input class="filter-features-checkbox" id="filter-advantages" type="checkbox">
-							<label class="filter-features-label" for="filter-advantages">Блок преимуществ</label>
-						</li>
+							<li class="filter-features-item">
+								<input class="filter-features-checkbox" id="filter-galery" type="checkbox">
+								<label class="filter-features-label" for="filter-galery">Галерея</label>
+							</li>
 
-						<li class="filter-features-item">
-							<input class="filter-features-checkbox" id="filter-news" type="checkbox" checked>
-							<label class="filter-features-label" for="filter-news">Новости</label>
-						</li>
+							<li class="filter-features-item">
+								<input class="filter-features-checkbox" id="filter-basket" type="checkbox">
+								<label class="filter-features-label" for="filter-basket">Корзина</label>
+							</li>
+						</ul>
+					</fieldset>
+					<button class="button filters-button" type="submit">Показать</button>
+				</form>
+			</section>
 
-						<li class="filter-features-item">
-							<input class="filter-features-checkbox" id="filter-galery" type="checkbox">
-							<label class="filter-features-label" for="filter-galery">Галерея</label>
-						</li>
+			<section class="sorting">
+				<h2 class="sorting-title">Сортировать:</h2>
+				<ul class="sorting-list">
 
-						<li class="filter-features-item">
-							<input class="filter-features-checkbox" id="filter-basket" type="checkbox">
-							<label class="filter-features-label" for="filter-basket">Корзина</label>
-						</li>
-					</ul>
-				</fieldset>
-				<button class="button filters-button" type="submit">Показать</button>
-			</form>
-		</section>
+					<li class="sorting-item">
+						<p class=" sorting-item-text sorting-current">По цене</p>
+					</li>
 
-		<section class="sorting">
-			<h2 class="sorting-title">Сортировать:</h2>
-			<ul class="sorting-list">
+					<li class="sorting-item">
+						<p class="sorting-item-text">По типу</p>
+					</li>
 
-				<li class="sorting-list__item">
-					<p class="sorting-item-text">По цене</p>
-				</li>
+					<li class="sorting-item">
+						<p class="sorting-item-text">По названию</p>
+					</li>
+				</ul>
+			</section>
 
-				<li class="sorting-list__item">
-					<p class="sorting-item-text">По типу</p>
-				</li>
+			<section class="projects">
+				<ul class="projects-list">
+					<li class="projects-item">
+						<a href="#">
+							<img src="img/catalog/sedona-img.png" alt="Шаблон сайта Sedona" height="578" width="358">
+						</a>
+					</li>
 
-				<li class="sorting-item">
-					<p class="sorting-item-text">По названию</p>
-				</li>
-			</ul>
-		</section>
+					<li class="projects-item">
+						<a href="#">
+							<img src="img/catalog/pink-img.png" alt="Шаблон сайта Pink" height="578" width="358">
+						</a>
+					</li>
 
-		<section class="projects">
-			<ul class="projects-list">
-				<li class="projects-item">
-					<a href="#">
-						<img src="img/catalog/sedona-img.png" alt="Шаблон сайта Sedona" height="578" width="358">
-					</a>
-				</li>
+					<li class="projects-item">
+						<a href="#">
+							<img src="img/catalog/borodiski-img.png" alt="Шаблон сайта Borodinski" height="578" width="358">
+						</a>
+					</li>
 
-				<li class="projects-item">
-					<a href="#">
-						<img src="img/catalog/pink-img.png" alt="Шаблон сайта Pink" height="578" width="358">
-					</a>
-				</li>
+					<li class="projects-item">
+						<a href="#">
+							<img src="img/catalog/mishka-img.png" alt="Шаблон сайта Mishka" height="578" width="358">
+						</a>
+					</li>
 
-				<li class="projects-item">
-					<a href="#">
-						<img src="img/catalog/borodiski-img.png" alt="Шаблон сайта Borodinski" height="578" width="358">
-					</a>
-				</li>
+					<li class="projects-item">
+						<a href="#">
+							<img src="img/catalog/a+-img.png" alt="Шаблон сайта A+" height="578" width="358">
+						</a>
+					</li>
 
-				<li class="projects-item">
-					<a href="#">
-						<img src="img/catalog/mishka-img.png" alt="Шаблон сайта Mishka" height="578" width="358">
-					</a>
-				</li>
+					<li class="projects-item">
+						<a href="#">
+							<img src="img/catalog/kvast-img.png" alt="Шаблон сайта Кваст" height="578" width="358">
+						</a>
+					</li>
+				</ul>
 
-				<li class="projects-item">
-					<a href="#">
-						<img src="img/catalog/a+-img.png" alt="Шаблон сайта A+" height="578" width="358">
-					</a>
-				</li>
+				<ul class="pagination-list">
+					<li class="pagination-item">
+						<a class="projects-current">1</a>
+					</li>
 
-				<li class="projects-item">
-					<a href="#">
-						<img src="img/catalog/kvast-img.png" alt="Шаблон сайта Кваст" height="578" width="358">
-					</a>
-				</li>
+					<li class="pagination-item">
+						<a href="#">2</a>
+					</li>
 
-			</ul>
+					<li class="pagination-item">
+						<a href="#">3</a>
+					</li>
 
-			<ul class="pagination-list">
-				<li class="pagination-item ">
-					<a>1</a>
-				</li>
-
-				<li class="pagination-list__item">
-					<a href="#">2</a>
-				</li>
-
-				<li class="pagination-item">
-					<a href="#">3</a>
-				</li>
-
-				<li class="pagination-item">
-					<a href="#">Следующая</a>
-				</li>
-			</ul>
-		</section>
+					<li class="pagination-item">
+						<a href="#">Следующая</a>
+					</li>
+				</ul>
+			</section>
+		</div>
 	</main>
 
 	<footer class="footer">
@@ -198,26 +199,29 @@
 			</div>
 		</section>
 
-		<section class="socials-links">
-			<ul class="socials-links-list">
-				<li class="socials-item">
-					<a class="socials-item-link" href="#">Вконтакте</a>
-				</li>
+		<div class="container">
+			<section class="socials-links">
+				<ul class="socials-links-list">
+					<li class="socials-item">
+						<a class="socials-item-link" href="#">Вконтакте</a>
+					</li>
 
-				<li class="socials-item">
-					<a class="socials-item-link" href="#">Фейсбук</a>
-				</li>
+					<li class="socials-item">
+						<a class="socials-item-link" href="#">Фейсбук</a>
+					</li>
 
-				<li class="socials-item">
-					<a class="socials-item-link" href="#">Инстаграм</a>
-				</li>
-			</ul>
-		</section>
-
+					<li class="socials-item">
+						<a class="socials-item-link" href="#">Инстаграм</a>
+					</li>
+				</ul>
+			</section>
+		
 		<section class="benefit">
 			<p class="benefit-large-text">Давайте дружить, это выгодно!</p>
 			<p class="benefit-small-text">Скидка 10% для друзей из социальных сетей.</p>
 		</section>
+
+		</div>
 	</footer>
 </body>
 </html>
