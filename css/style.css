@@ -18,6 +18,9 @@
 	--hover-button-yellow: #EAB534;
 	--active-button-yellow: #E5A722;
 	--color-special-current: #DBDBDB;
+	--background-pagination-hover: #DFDFDF;
+	--background-pagination-continuation: #D5D5D5;
+	--color-active-black: rgba(0, 0, 0, .3);
 }
 
 .page{
@@ -343,6 +346,15 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 16px;
 	line-height: 18px;
 }
+.filters-button:hover{
+	background-color: var(--background-pagination-hover);
+}
+
+.filters-button:active{
+	background-color: var(--background-pagination-continuation);
+	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+	color: var(--color-active-black);
+}
 
 /* sorting */
 .sorting-title{
@@ -351,15 +363,26 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 30px;
 }
 
-.sorting-item-text{
+.sorting-item-link{
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
+	text-decoration: none;
 	opacity: .3;
+	color: var(--basick-black);
 }
 
 .sorting-current{
+	opacity: 1;
+}
+
+.sorting-item-link:hover{
+	opacity: 0.6;
+}
+
+.sorting-item-link:active{
+	color: var(--basick-black);
 	opacity: 1;
 }
 
@@ -373,9 +396,22 @@ h1,h2,h3,h4,h5,h6{
 	text-decoration: none;
 }
 
+.pagination-item a:hover{
+	background-color: var(--background-pagination-hover);
+}
+
+.pagination-item a:active{
+	background-color: var(--background-pagination-continuation);
+	color: var(--color-active-black);
+	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+
 .projects-current{
 	background-color: inherit;
 	border: 3px solid var(--color-special-current);
 	box-sizing: border-box;
 	border-radius: 3px;
 }
+
+
+
