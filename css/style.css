@@ -333,6 +333,7 @@ p{
 .footer-sections{
 	display: grid;
 	grid-template-columns: min-content 1fr;
+	gap: 20px;
 }
 
 /* benefit */
