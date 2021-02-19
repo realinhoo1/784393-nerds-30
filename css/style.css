@@ -138,10 +138,14 @@ p{
 	background-color: var(--color-hover-link);
 }
 
-.cart-link{
+.wrapper-cart-link{
 	display: flex;
-	align-items: center;
 	justify-content: flex-end;
+	align-items: center;
+}
+
+.cart-link{
+	display: inline-block;
 	font-weight: 600;
 	line-height: 30px;
 	color: var(--basic-black);
@@ -149,9 +153,9 @@ p{
 }
 
 .cart-link::before{
-	padding-left: 40px;
+	margin-right: 20px;
 	content: "";
-	display: block;
+	display: inline-block;
 	width: 15px;
 	height: 15px;
 	background: url("../img/icons-decorate/cart-icon.svg") center no-repeat;
