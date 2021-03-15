@@ -967,8 +967,8 @@ p{
 }
 
 .projects-item{
-	width: 358px;
-	height: 617px;
+	width: 357px;
+	height: 615px;
 	border: 1px solid var(--decorate-color);
 	border-radius: 6px;
 }
@@ -977,6 +977,7 @@ p{
 	position: relative;
 	height: 100%;
 	width: 100%;
+	border-radius: 0 0 5px 5px;
 }
 
 .project-block:hover{
