@@ -335,6 +335,7 @@ p{
 	color: var(--basic-white);
 	text-transform: uppercase;
 	font-weight: 300;
+	text-decoration: none;
 }
 
 .products-button-red{
@@ -968,14 +969,14 @@ p{
 .projects-item{
 	width: 358px;
 	height: 617px;
+	border: 1px solid var(--decorate-color);
+	border-radius: 6px;
 }
 
 .project-block{
 	position: relative;
 	height: 100%;
 	width: 100%;
-	border-radius: 5px;
-	border: 1px solid var(--decorate-color);
 }
 
 .project-block:hover{
@@ -989,24 +990,21 @@ p{
 }
 
 .project-decorate{
+	padding-left: 16px;
 	display: flex;
 	align-items: center;
 	height: 40px;
 	background-color: var(--color-checkbox);
 	opacity: .12;
-	border-radius: 5px 5px 0 0;
+	border-radius: 4px 5px 0 0;
 }
 
 .project-decorate__circle{
-	margin-left: 9px;
+	margin-right: 9px;
 	height: 14px;
 	width: 14px;
 	background-color: var(--basic-white);
 	border-radius: 50%;
-}
-
-.project-decorate__circle:first-child{
-	margin-left: 15px;
 }
 
 .project-block:hover .project-price{
@@ -1024,6 +1022,7 @@ p{
 	width: 100%;
 	text-align: center;
 	background-color: var(--background-section);
+	border-radius: 0 0 4px 4px;
 }
 
 .project-price__title{
@@ -1056,14 +1055,10 @@ p{
 	margin-top: 32px;
 	padding: 15px 72px;
 	display: inline-block;
-	text-decoration: none;
 	font-weight: 600;
-	font-size: 16px;
 	line-height: 18px;
 	background-color: var(--background-red);
-	color: var(--basic-white);
 	letter-spacing: .4px;
-	border-radius: 3px;
 }
 
 .project-price__link:hover{
