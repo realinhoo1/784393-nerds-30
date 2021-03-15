@@ -966,12 +966,14 @@ p{
 }
 
 .projects-item{
-	width: 360px;
+	width: 358px;
+	height: 617px;
 }
 
 .project-block{
 	position: relative;
-	height: 620px;
+	height: 100%;
+	width: 100%;
 	border-radius: 5px;
 	border: 1px solid var(--decorate-color);
 }
