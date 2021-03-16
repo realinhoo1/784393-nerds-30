@@ -84,8 +84,12 @@ p{
 	background-color: var(--background-section);
 }
 
-.header-logo:active path{
-	fill: var(--color-logo-active);
+.main-header-logo:hover img{
+	opacity: .7;
+}
+
+.main-header-logo:active img{
+	opacity: .3;
 }
 
 .main-navigation{
@@ -634,8 +638,8 @@ p{
 	background: var(--color-excerpt-hover);
 }
 
-.socials-item-link:active path{
-	fill: var(--color-opacity);
+.socials-item-link:active img{
+	opacity: .3;
 }
 
 .socials-item:last-child{
@@ -1214,14 +1218,14 @@ p{
 	outline: none;
 }
 
-.modal-close path{
-	fill: var(--background-button-close);
+.modal-close img{
+	opacity: .3;
 }
 
-.modal-close:hover path{
-	fill: var(--background-red);
+.modal-close:hover img{
+	opacity: 1;
 }
 
-.modal-close:active path{
-	fill: var(--background-button-close-active);
+.modal-close:active img{
+	opacity: .1;
 }
