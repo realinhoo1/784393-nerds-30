@@ -537,16 +537,16 @@ p{
 	display: none;
 }
 
-.companies-img path{
-	fill: var(--svg-opacity);
+.companies-link img{
+	opacity: .2;
 }
 
-.companies-img:hover path{
-	fill: var(--basic-black);
+.companies-link:hover img{
+	opacity: 1;
 }
 
-.companies-img:active path{
-	fill: var(--svg-opacity-active);
+.companies-link:active img{
+	opacity: .1;
 }
 
 /* contacts */
